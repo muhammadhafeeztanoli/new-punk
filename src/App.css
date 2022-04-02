@@ -15,6 +15,11 @@
   display:flex;
   justify-content: center;
 }
+
+.col-md-3 {
+    width: 100%;
+}
+
 /* .padding_element{
 } */
 .footer{
