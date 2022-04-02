@@ -47,15 +47,19 @@ body {
 
 @media (max-width: 768px) {
   .logo {
-    width:60% !important;
+    width:100% !important;
     margin-top: 5px !important;
     margin-bottom: -17px !important;
-
   }
   .padding_element{
     width: 55% !important;
   }
+  .col-md-3 {
+    flex: 0 0 auto;
+    width: 100%;
 }
+}
+
 @media (max-width: 425px) {
   .logo {
     width:80% !important;
