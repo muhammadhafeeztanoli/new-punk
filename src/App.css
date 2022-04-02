@@ -15,11 +15,6 @@
   display:flex;
   justify-content: center;
 }
-
-.col-md-3 {
-    width: 100%;
-}
-
 /* .padding_element{
 } */
 .footer{
@@ -44,117 +39,21 @@ body {
   width: 50px;
   height: 50px;
 }
-@media (max-width: 1024px) {
-  .logo {
-    margin-bottom: -20px !important;
-  }
-}
 
-/* @media (max-width: 768px) {
-  .logo {
-    width:100% !important;
-    margin-top: 5px !important;
-    margin-bottom: -17px !important;
-  }
-  .padding_element{
-    width: 55% !important;
-  }
-  .col-md-3 {
-    flex: 0 0 auto;
-    width: 100%;
-}
-}
-
-@media (max-width: 425px) {
-  .logo {
-    width:80% !important;
-    margin-top: 5px !important;
-    margin-bottom: -10px !important;
-
-  }
-  .padding_element{
-    width: 80% !important;
-  }
-}
-@media (max-width: 320px) {
-  .logo {
-    width:90% !important;
-    margin-bottom: -5px !important;
-
-  }
-  .padding_element{
-    width: 90% !important;
-  }
-} */
 
 .logo{
-    width:100%;
+    width: 100%;
     margin-top: 10px;
     margin-bottom: -35px;
   /* z-index: 1; */
 }
+
 .arrow_btn{
   font-size: 35px;
   margin-top: 5px;
 }
-@media (min-width: 1024px) {
-  .padding_element{
-    width: 25%;
-  }
-  .minted_text{
-    font-size: 28px !important;
-  }
-  .comment_Maximum {
-    font-size: 20px !important;
-  }
-  .arrow_btn {
-    font-size: 20px !important;
-  }
-  .text_nftcount{
-    /* font-size: 23px !important; */
-    font-size: 25px !important;
-    width: 50px !important;
-    height: 50px !important;
-  }
-}
 
-@media (max-width: 1024px) {
-  .minted_text{
-    font-size: 30px !important;
-  }
-  .padding_element{
-    width: 30%;
-  }
-  .comment_Maximum {
-    font-size: 20px !important;
-  }
-  .arrow_btn {
-    font-size: 20px !important;
-  }
-  .text_nftcount{
-    font-size: 25px !important;
-    font-size:30px !important;
-    width: 50px !important;
-    height: 50px !important;
-  }
-}
-@media (max-width: 425px) {
-  .minted_text{
-    font-size: 30px !important;
-  }
-  .comment_Maximum {
-    font-size: 20px !important;
-  }
-  .arrow_btn {
-    font-size: 20px !important;
-  }
-  .text_nftcount{
-    font-size: 25px !important;
-    font-size:30px !important;
-    width: 50px !important;
-    height: 50px !important;
-  }
-}
+
 .main{
   padding-top: 5%;
   padding-left: 15px;
@@ -168,6 +67,8 @@ body {
   background-repeat: no-repeat;
   border-radius: 10px;
 }
+
+
 .minted_text{
   color: white;
   font-size: 3.1rem;
@@ -177,6 +78,8 @@ h3.mint_header {
   font-size: 2rem;
   font-weight:600;
 }
+
+
 button.MuiButton-root  {
   font-size: 1.25rem;
   padding: 20px!important;
@@ -326,8 +229,10 @@ a{
   font-size: 20px;
   padding-bottom: 10px;
 }
+
 .col-md-3{
   padding: 0px;
+  width: 100%;
 }
 .padding_element{
   /* padding-bottom: 2%; */
