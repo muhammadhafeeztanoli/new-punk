@@ -45,7 +45,7 @@ body {
   }
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .logo {
     width:100% !important;
     margin-top: 5px !important;
@@ -80,9 +80,10 @@ body {
   .padding_element{
     width: 90% !important;
   }
-}
+} */
+
 .logo{
-    width:55%;
+    width:100%;
     margin-top: 10px;
     margin-bottom: -35px;
   /* z-index: 1; */
