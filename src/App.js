@@ -6,9 +6,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className="row align-center height">
-          <div className="row row_element">
-            <div className="col-md-3 logo">
-              <img className='' src="logo_cropped.png" />
+          <div>
+            <div className="logo">
+              <img className='' src="./logo_cropped.png" />
             </div>
           </div>
           <div className="col-md-12 row_element">
