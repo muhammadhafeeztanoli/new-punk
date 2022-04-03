@@ -15,8 +15,9 @@ const contractAddress = "0x421E925E92aF2D594Bc787029A24eA52E74BE3EA";
 // const contractAddress = "0x0e8b63045cc9efe0720fe45356c14a17200dd82e";
 const abi = contract;
 
-const Maincomponent = () => {
 
+const Maincomponent = () => {
+  
     const [value,setValue] = useState(1) ;
     const [id,setId] = useState(0) ;
     const [price , setPrice]=useState() ;
@@ -38,9 +39,11 @@ const Maincomponent = () => {
     }
       
    useEffect(()=>{
+    if(ethereum){  
       window.ethereum.on('accountsChanged' , async ()=>{
         connectedwallet() ;
       });
+    }
    },[])
 
    useEffect(async() => {
@@ -102,7 +105,7 @@ const Maincomponent = () => {
         <div className="main">
           <div>
                 <div className='minted_text'>{(id == null) ? '0': id }/5000</div>
-                 <div className='comment_Maximum'>0.005 ETH each</div>
+                 <div className='comment_Maximum'>{price} ETH each</div>
                 <div className='minted_button'>
                   <div>
                     <div className='row_element btn_group'>
