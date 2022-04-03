@@ -18,7 +18,7 @@ ReactDOM.render(
       <a href="https://opensea.io/collection/smithpunks"><img alt='propd' src="2.png"/></a>
       </div>
       <div className="">
-      <a href="https://etherscan.io/token/0x0e8b63045cc9efe0720fe45356c14a17200dd82e"><img alt='propd' src="3.png"/></a>
+      <a href="https://etherscan.io/address/0x421e925e92af2d594bc787029a24ea52e74be3ea"><img alt='propd' src="3.png"/></a>
       </div>
     </div>
     <App />
